@@ -1,5 +1,5 @@
 {
-  "name": "pkg2",
+  "name": "pkg2-lvrnd",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "48e51d01b2466804e7599cbb6a585abd600f0447"
 }

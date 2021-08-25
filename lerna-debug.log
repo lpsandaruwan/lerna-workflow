@@ -1,0 +1,7 @@
+36 error Error: Command failed with exit code 1: git commit -F /tmp/82594eee-e4da-40eb-ba7d-50d3833adb05/lerna-commit.txt
+36 error On branch master
+36 error nothing to commit, working tree clean
+36 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+36 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+36 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+36 error     at async Promise.all (index 0)
