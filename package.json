@@ -1,7 +1,15 @@
 {
   "name": "root",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "commands": "^0.0.7",
+    "get-monorepo-packages": "^1.2.0",
+    "npm": "^7.21.0",
+    "npm-commands": "^1.1.0",
+    "npmview": "^0.0.4",
+    "semver": "^7.3.5"
   }
 }
