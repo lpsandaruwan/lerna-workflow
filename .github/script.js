@@ -17,7 +17,8 @@ function publishVersionChangedPackagesList(root_dir) {
             } else {
                 // Check whether the directory packge is greater than the published.
                 if (semver.gt(package["package"]["version"], version)) {
-                    // Set NPM tokenz.
+                    // Set NPM tokens.
+                    console.log(process.env.NPM_TOKEN);
                     execSync(`npm config set //registry.npmjs.org/:_authToken ${process.env.NPM_TOKEN}`,
                         { stdio: 'inherit' })
                     // Execute NPM commands
