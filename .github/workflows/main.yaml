@@ -22,11 +22,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Build project
-      - run: npm install
-      - run: npm run boot -- --ci
-      - run: npm run build
+        run: npm install
+        run: npm run boot -- --ci
+        run: npm run build
       - name: Publish changed packages
-      - run: npm install get-monorepo-packages
-      - run: npm install npmview
-      - run: npm install semver
-      - run: node ./.github/script.js
+        run: npm install get-monorepo-packages
+        run: npm install npmview
+        run: npm install semver
+        run: node ./.github/script.js
