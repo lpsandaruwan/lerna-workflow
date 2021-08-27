@@ -12,7 +12,7 @@
     "npmview": "^0.0.4",
     "semver": "^7.3.5"
   },  "scripts": {
-    "build": "rollup -c && lerna run build",
+    "build": "lerna run build",
     "clean": "lerna clean",
     "boot": "lerna bootstrap",
     "test": "lerna run test --stream",
